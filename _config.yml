@@ -1,10 +1,9 @@
 # basic options
-title: TCGA-Kidney
+title: The Cancer Genome Atlas (TCGA) - Kidney Clear Cell Carcinoma
 author: Alexander Fache
 #email: alexander.fache@gmail.com
-description: A wonderful site
-#twitter_username: jekyllrb
-github_username:  alexanderfache6
+description: Developed for ECE 4783 Introduction to Medical Image Processing
+github_username: alexanderfache6
 
 # Build settings
 markdown: kramdown
