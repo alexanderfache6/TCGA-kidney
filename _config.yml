@@ -1,1 +1,11 @@
+# basic options
+title: TCGA-Kidney
+author: Alexander Fache
+#email: alexander.fache@gmail.com
+description: A wonderful site
+#twitter_username: jekyllrb
+github_username:  alexanderfache6
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-cayman
