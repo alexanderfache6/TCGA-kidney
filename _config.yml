@@ -4,12 +4,8 @@ description: Developed for ECE 4783 Introduction to Medical Image Processing (Ge
 
 author: Alexander Fache
 
-social-network-links:
-  email: alexander.fache@gmail.com
-  github: alexanderfache6
-
-share-links-active:
-  github: true
+email: alexander.fache@gmail.com
+github_username: alexanderfache6
 
 # Build settings
 markdown: kramdown
