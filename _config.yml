@@ -1,8 +1,8 @@
 # basic options
-title: The Cancer Genome Atlas (TCGA) - Kidney Clear Cell Carcinoma
+title: The Cancer Genome Atlas - Kidney Clear Cell Carcinoma
 author: Alexander Fache
-#email: alexander.fache@gmail.com
-description: Developed for ECE 4783 Introduction to Medical Image Processing
+email: alexander.fache@gmail.com
+description: Developed for ECE 4783 Introduction to Medical Image Processing (Georgia Institute of Technology)
 github_username: alexanderfache6
 
 # Build settings
