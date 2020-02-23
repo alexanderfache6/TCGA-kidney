@@ -7,6 +7,9 @@ author: Alexander Fache
 email: alexander.fache@gmail.com
 github_username: alexanderfache6
 
+github:
+  is_project_page: false
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
