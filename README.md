@@ -11,7 +11,8 @@ Given a limited data set, data augmentation is key for increasing the number of 
 - flipping
 - rotating
 - cropping
-additional samples at 224x224 are created.
+
+additional samples of 224x224 are created.
 
 224x224 was chosen as the modified dimensions of each sample as many pretrained CNNs invoke 224x224 as the input dimensionality.
 
