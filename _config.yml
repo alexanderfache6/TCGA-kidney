@@ -8,6 +8,9 @@ social-network-links:
   email: alexander.fache@gmail.com
   github: alexanderfache6
 
+share-links-active:
+  github: true
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
