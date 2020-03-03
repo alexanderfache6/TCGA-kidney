@@ -2,10 +2,13 @@
 
 ## Module 1 - Preprocessing
 
-Given 512x512 image slides of Kidney tissue, preprocessing intends to clean up defects and select  regions of interest within each sample.
+Given 512x512 image slides of Kidney tissue, preprocessing intends to clean up defects and select regions of interest within each sample.
 
 Preprocessing techniques employed include:
 - Reinhardt's Method for Color Normalization
+  - A Necrosis, Stroma, and Tumor target image will be selected at random.
+  - Normalization will then be applied using this target image on the entire dataset.
+  - This will normalize the images and triple the size of the dataset.
 
 Given a limited data set, data augmentation is key for increasing the number of samples. Through methods such as:
 - flipping
