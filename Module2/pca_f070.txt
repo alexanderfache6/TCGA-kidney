@@ -1,0 +1,7 @@
+4 components needed to explain 80.00% of variance
+6 components needed to explain 85.00% of variance
+8 components needed to explain 90.00% of variance
+14 components needed to explain 95.00% of variance
+21 components needed to explain 98.00% of variance
+26 components needed to explain 99.00% of variance
+43 components needed to explain 99.90% of variance
