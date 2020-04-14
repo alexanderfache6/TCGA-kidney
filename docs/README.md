@@ -21,4 +21,6 @@ additional samples of 224x224 are created.
 
 ## Module 2 - Feature Extraction and Selection
 
+link to literature review paper
+
 ## Module 3 - Classification
