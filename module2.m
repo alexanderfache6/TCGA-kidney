@@ -48,38 +48,37 @@ for i = FIRST_i:1:LAST_i
     
     features = [];
     if contains(imgpath(i).name, '.png')
-        imgpath(i).name
-%         out = centroidandaxes(['data_augmented\', imgpath(i).name]);
-%         features = [features, size(out{1}, 1)];
-%         for j = [2:1:14, 20] %15 - pixels, 16 - cell structure, 17 - complex, 18 - single value, 19 - inf/NaN
-%             features = [features, mean(out{j}), var(out{j}), median(out{j}), mode(out{j})]; %only this four to eliminate inf/nan occurance
-%         end
-%         features = [features, out{18}];
-% 
-%         [~, radii] = hct(['..\data_augmented\', imgpath(i).name]);
-%         if size(radii, 1) == 0 || size(radii, 2) == 0
-%             features = [features, zeros(1, 5)];
-%         else
-%             features = [features, size(radii, 1), mean(radii), var(radii), median(radii), mode(radii)];
-%         end
-% 
-%         try
-%             FEATURES = [FEATURES; features];
-%         catch
-%             FAIL = [FAIL, i];
-%             fprintf('FAIL #%d\n', length(FAIL));
-%         end
-%         
-%         YES = YES + 1;
-%         
-%     else
-%         NO = NO + 1;
-%     end
-%     
-%     if mod(i, batch_size) == 0
-%         fprintf('i = %d\n', i);
-% %         TIME = [TIME, cputime - t];
-% %         t = cputime;
+        out = centroidandaxes(['data_augmented\', imgpath(i).name]);
+        features = [features, size(out{1}, 1)];
+        for j = [2:1:14, 20] %15 - pixels, 16 - cell structure, 17 - complex, 18 - single value, 19 - inf/NaN
+            features = [features, mean(out{j}), var(out{j}), median(out{j}), mode(out{j})]; %only this four to eliminate inf/nan occurance
+        end
+        features = [features, out{18}];
+
+        [~, radii] = hct(['..\data_augmented\', imgpath(i).name]);
+        if size(radii, 1) == 0 || size(radii, 2) == 0
+            features = [features, zeros(1, 5)];
+        else
+            features = [features, size(radii, 1), mean(radii), var(radii), median(radii), mode(radii)];
+        end
+
+        try
+            FEATURES = [FEATURES; features];
+        catch
+            FAIL = [FAIL, i];
+            fprintf('FAIL #%d\n', length(FAIL));
+        end
+        
+        YES = YES + 1;
+        
+    else
+        NO = NO + 1;
+    end
+    
+    if mod(i, batch_size) == 0
+        fprintf('i = %d\n', i);
+%         TIME = [TIME, cputime - t];
+%         t = cputime;
     end
 
 end
