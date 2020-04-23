@@ -9,10 +9,6 @@ github_username: alexanderfache6
 github:
   is_project_page: false
 
-baseurl: /TCGA-kidney
-
-{{ site.baseurl }}/assignments/Module_3/Fache_Lovejoy_UG2_Final Presentation.pdf
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
