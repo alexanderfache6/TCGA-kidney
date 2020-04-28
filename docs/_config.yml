@@ -1,8 +1,13 @@
+# Site settings
+locale: "en-US"
 title: The Cancer Genome Atlas - Kidney Clear Cell Carcinoma
 description: Developed for ECE 4783 Introduction to Medical Image Processing (Georgia Institute of Technology)
+url: https://alexanderfache6.github.io
 
-# author: Alexander Fache
-# github_username: alexanderfache6
+author:
+  name: Alexander Fache
+  bio: 'Georgia Tech ECE'
+  github: alexanderfache6
 
 github:
   is_project_page: false
